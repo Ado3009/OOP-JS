@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-size: cover;
+    background-image: url(images/background.jpg);
+    background-repeat: no-repeat;
+    height: 100vh;
+    
+
+   
+}
+
+
+
+form{
+    color: white;
+    max-width: 600px;
+    margin-bottom: 150px;
+   
+       
+}
+
+form div label{
+    margin-top: 20px;
+    display: block;
+    font-weight: 700;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+}
+
+form div input{
+    height: 23px;
+    width: 350px;
+    text-align: center;
+    text-transform:capitalize; 
+    border-radius: 10px;
+    border: none;
+    
+}
+
+
+form ul {
+    list-style: none;
+}
+
+form ul li {
+    color: red;
+}
